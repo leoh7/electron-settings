@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:elec": "./node_modules/.bin/electron"
+    "start:elec": "./node_modules/.bin/electron",
+    "build": "babel src -d lib"
   },
   "author": "",
   "license": "ISC",
